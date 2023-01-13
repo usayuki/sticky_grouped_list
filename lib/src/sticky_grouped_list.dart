@@ -386,7 +386,7 @@ class StickyGroupedListViewState<T, E>
 class GroupedItemScrollController extends ItemScrollController {
   GroupedItemScrollController({this.scrollController}) {
     this.scrollController = scrollController;
-  };
+  }
 
   final ScrollController? scrollController;
 
